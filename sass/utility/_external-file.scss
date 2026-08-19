@@ -1,0 +1,50 @@
+.vtptext {
+    font-size: 16px;
+    color: #000000;
+}
+.vtptextfooter {
+    font-size: 16px;
+    color: #000000;
+    padding: 15px 0px;
+}
+.vtdetails {
+    font-size: 16px;
+    color: #000000;
+    clear: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.vtheading {
+    font-size: 28px;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+img.vticons {
+    float:left;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+.vtbuttons {
+    width: auto;
+    font-family: "Open Sans", sans-serif;
+    background-color: #ff723a;
+    color: #FFFFFF!important;
+    padding: .375rem .75rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+}
+.vtbuttons:hover {
+    background-color: #1f1c35;
+}
+.vtdiv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

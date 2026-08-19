@@ -1,0 +1,10 @@
+.accordion-button:not(.collapsed)
+ {
+    background: $primary !important;
+    color: white !important;
+}
+.accordion-button
+ {
+    background: $primary-light-opacity !important;
+   
+}

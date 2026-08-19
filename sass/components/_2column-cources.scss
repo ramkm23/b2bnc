@@ -1,0 +1,36 @@
+
+.twocolumn-cources {
+    margin-bottom: 30px;
+    h2 {
+        font-size: 24px;
+    }
+
+    .ep-course-leftsection-data {
+        padding: 30px 0px 20px;
+    }
+
+    .leftsection {
+        padding: 20px 0px;
+
+        .course-image {
+            float: left;
+            width: 15%;
+        }
+        .cource-details {
+            width: 85%;
+            float: right;
+            vertical-align: top;
+        }
+    
+    }
+    .rightsection {
+        background: rgb(250 93 24 / 17%);
+        .ep-course-rightsection-data {
+            padding: 30px 20px 20px;
+        }
+    }
+
+     ul li::marker {
+        color: $primary;
+    }
+}

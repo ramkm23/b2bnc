@@ -1,0 +1,40 @@
+.three-coloumn-components {
+    img{
+        width: 100%;
+    }
+    
+    .comptitle {    
+        padding-bottom: 3px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    h2 {
+        color: $primary;
+        span {
+            position: relative;
+        }
+    }
+    h3 {
+        margin: 0px;
+        padding: 20px;
+        background-color: $primary-dark-opacity;
+        color: $web-black;
+    }
+    p {
+        margin: 0px;
+    }
+
+    .itembackground {
+        background: $primary-light-opacity;
+        color:$web-black;
+        padding: 20px;
+        .btn {
+            border: 2px solid white !important;
+        }
+    }
+
+   .btn {
+        margin: 20px 0px;
+    }
+
+}
