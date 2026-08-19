@@ -1,0 +1,24 @@
+#counter-details {
+    background-color: $primary;
+    color: $web-white;
+    .iconbox {
+        float: left;
+        margin: 5px 0px;
+    }
+    h3 {
+        font-size: 30px !important;
+    }
+    .icon {
+        float: left;
+        margin: 0px 10px 0px 0px;
+        img {
+            padding: 7px;
+            border-radius: 6px;
+            background: $web-white;
+        }
+    }
+    .icondescription {
+        float: left;
+        text-align: left;
+    }
+}

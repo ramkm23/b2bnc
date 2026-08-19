@@ -1,0 +1,20 @@
+.sectioncontent h1 {
+    font-weight: bold;
+    font-size: 33px;
+    color: green;
+}
+.default-tepmlate { 
+    section {
+        padding: 10px 0px !important;
+    }
+    @media(max-width:768px)
+    {
+        .section-navigation {
+        display: none;
+    }
+    #content {
+        padding-top: 20px;
+    }
+        
+    }
+}

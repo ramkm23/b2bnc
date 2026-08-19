@@ -1,0 +1,68 @@
+.formssection {
+    background-color: $primary;
+    border-radius: 10px;
+    padding: 20px;
+    color:$web-white;
+    padding: 3px 20px;
+    font-weight: bold;
+
+    .form-heading {
+        padding: 20px 0px;
+        text-align: center;
+        .heading {
+            font-size: 20px;
+        }
+        
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+    label {
+        width: 100%;
+        input {
+            padding: 8px;
+            width: 100% !important;
+        }
+        textarea {
+            padding: 8px;
+            height: 80px;
+        }
+    }
+    .wpcf7-submit {
+        background-color: $web-black;  
+    }
+    .wpcf7-submit:hover {
+        background: $web-white;
+        color: $web-black;
+        font-weight: 600;
+    }
+
+    .wpcf7-not-valid-tip {
+        font-weight: bold;
+        color: #a70000;
+    }
+    .wpcf7-response-output {
+        color: #af0808;
+    }
+
+    .wpcf7-submit {
+        width: 36% !important;
+        padding: 8px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .formssection {
+        margin-bottom: 30px;
+    }
+    .content-heading
+    {
+        font-size: 25px;
+    }
+}
+
+
+

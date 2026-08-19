@@ -1,0 +1,280 @@
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/* =========================
+   Nav Menu Essentials
+   ========================= */
+
+.nav-menu,
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu > li {
+    float: left;
+    margin-left: 10px;
+}
+
+/* =========================
+   Dropdown Structure
+   ========================= */
+
+.nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+    text-align: left;
+    margin: 15px 0 0 0;
+    padding: 5px 10px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+    display: block;
+}
+
+/* SECOND LEVEL */
+.nav-menu ul li {
+    min-width: 180px;
+    transition: 0.3s;
+}
+
+/* THIRD LEVEL — OPENS LEFT */
+.nav-menu ul ul {
+    top: 0;
+    left: auto;
+    right: 100%;
+    margin: 0;
+}
+
+/* =========================
+   Links Styling
+   ========================= */
+
+.nav-menu a {
+    padding: 10px 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: $web-black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    outline: none;
+}
+
+.nav-menu ul li a {
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    text-transform: none;
+    transition: 0.3s;
+}
+
+.nav-menu li:hover > a,
+.nav-menu .menu-active > a {
+    color: $secondary;
+}
+
+.nav-menu ul li:hover > a {
+    color: #50d8af;
+}
+
+/* =========================
+   Dropdown Arrows
+   ========================= */
+
+.sf-arrows .sf-with-ul {
+    padding-right: 22px;
+}
+
+.sf-arrows .sf-with-ul:after {
+    content: "\f107";
+    position: absolute;
+    right: 8px;
+    font-family: FontAwesome;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+    content: "\f105";
+}
+
+/* =========================
+   Nav Container
+   ========================= */
+
+#nav-menu-container {
+    float: right;
+    margin: 0;
+}
+
+/* =========================
+   Mobile Toggle
+   ========================= */
+
+#mobile-nav-toggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    margin: 20px 20px 0 0;
+    border: none;
+    background: none;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+}
+
+#mobile-nav-toggle i {
+    color: #555;
+}
+
+/* =========================
+   Mobile Navigation
+   ========================= */
+
+#mobile-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -260px;
+    width: 260px;
+    padding-top: 18px;
+    background: rgba(52, 59, 64, 0.9);
+    z-index: 998;
+    overflow-y: auto;
+    transition: 0.4s;
+}
+
+#mobile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mobile-nav ul li {
+    position: relative;
+}
+
+#mobile-nav ul li a {
+    width: 100%;
+    padding: 10px 22px 10px 15px;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+#mobile-nav ul li li {
+    padding-left: 30px;
+}
+
+#mobile-nav ul .menu-item-has-children i {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+    color: #50d8af;
+}
+
+#mobile-nav ul .menu-item-active {
+    color: #50d8af;
+}
+
+/* =========================
+   Mobile Overlay
+   ========================= */
+
+#mobile-body-overly {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 997;
+    background: rgba(52, 59, 64, 0.9);
+    display: none;
+}
+
+body.mobile-nav-active {
+    overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+    left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+    color: #fff;
+}
+
+/* =========================
+   Section Navigation
+   ========================= */
+
+.section-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-navigation .menu-item a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.section-navigation .sub-menu {
+    padding: 0;
+}
+
+.section-navigation .menu-item a:hover {
+    background: #c1bec4;
+}
+
+.section-navigation .current_page_item a {
+    background-color: $primary-dark-opacity;
+    color: $web-black !important;
+}
+
+/* =========================
+   Active Page
+   ========================= */
+
+.current_page_item a {
+    color: #006837 !important;
+}
+
+/* =========================
+   Safety: Prevent Horizontal Scroll
+   ========================= */
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* =========================
+   Responsive Adjustment
+   ========================= */
+
+@media (min-width: 768px) {
+    .default-tepmlate {
+        margin-top: 50px;
+    }
+}

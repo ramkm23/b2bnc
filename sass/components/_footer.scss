@@ -1,0 +1,23 @@
+.footcont p {
+    font-size: 15px;
+}
+
+.about-us-info ul {
+    margin: 0px;
+    padding: 0px;
+	li {
+        list-style: none;
+    }
+}
+
+.footer-section a:hover {
+    color:$web-white;
+    text-decoration: underline;
+}
+
+.footer-section i {
+    font-size: 22px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 6px;
+}
