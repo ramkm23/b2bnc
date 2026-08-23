@@ -41,7 +41,7 @@
          rel="noopener noreferrer"
          class="whatsapp-float"
          aria-label="Call Us">
-         <img src="https://b2bnctraining.co.uk/wp-content/themes/b2bnc/img/phone-call.png" alt="WhatsApp Support" />
+         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/phone-call.png" alt="WhatsApp Support" />
      </a>
      <div class="whatsapp-message">
         Call Us!

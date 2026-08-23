@@ -12,9 +12,11 @@
             <div class="col-sm-6">
                 <h2><?php echo get_sub_field( 'heading' );?></h2>
                 <p><?php echo get_sub_field( 'text' );?></p>
-                <?php if(get_sub_field('cta-button-link')) : ?>  
-                    <a href="<?php echo get_sub_field('cta-button-link')['url']; ?>" target="<?php echo get_sub_field('cta-button-link')['target']; ?>" class="btn"><?php echo get_sub_field('cta-button-link')['title']; ?></a>
-                    <a href="#" class="enqbtn button ep-video__btn open-cf7-popup enquiry-now-btn shop-enquiry-btn">Enquiry Now</a>
+                <?php if(get_sub_field('cta-primary-button-link')) : ?>  
+                    <a href="<?php echo get_sub_field('cta-primary-button-link')['url']; ?>" target="<?php echo get_sub_field('cta-primary-button-link')['target']; ?>" class="btn"><?php echo get_sub_field('cta-primary-button-link')['title']; ?></a>
+                <?php endif; ?>
+                <?php if(get_sub_field('cta-secondary-button-link')) : ?>  
+                    <a href="<?php echo get_sub_field('cta-secondary-button-link')['url']; ?>" target="<?php echo get_sub_field('cta-secondary-button-link')['target']; ?>" class="btn cta-secondary-button-link"><?php echo get_sub_field('cta-secondary-button-link')['title']; ?></a>
                 <?php endif; ?>
             </div>
         </div>

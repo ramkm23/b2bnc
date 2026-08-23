@@ -31,8 +31,11 @@
                            <?php echo get_sub_field('three-column-components-item-text'); ?>
                         
                         <?php endif; ?>
-                        <?php if(get_sub_field('three-column-components-item-button')) : ?>  
-                           <a href="<?php echo get_sub_field('three-column-components-item-button')['url']; ?>" target="<?php echo get_sub_field('three-column-components-item-button')['target']; ?>" class="btn"><?php echo get_sub_field('three-column-components-item-button')['title']; ?></a>
+                        <?php if(get_sub_field('three-column-components-item-primary-button')) : ?>  
+                           <a href="<?php echo get_sub_field('three-column-components-item-primary-button')['url']; ?>" target="<?php echo get_sub_field('three-column-components-item-primary-button')['target']; ?>" class="btn"><?php echo get_sub_field('three-column-components-item-primary-button')['title']; ?></a>
+                        <?php endif; ?>
+                        <?php if(get_sub_field('three-column-components-item-secondary-button')) : ?>  
+                           <a href="<?php echo get_sub_field('three-column-components-item-secondary-button')['url']; ?>" target="<?php echo get_sub_field('three-column-components-item-secondary-button')['target']; ?>" class="btn secondary-button"><?php echo get_sub_field('three-column-components-item-secondary-button')['title']; ?></a>
                         <?php endif; ?>
                      </div> 
                   </div>

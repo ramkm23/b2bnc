@@ -314,7 +314,22 @@
                         {
                             "key": "field_670fa5d030cb7",
                             "label": "CAT Button",
-                            "name": "cta-button-link",
+                            "name": "cta-primary-button-link",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_6a89934fe0a80",
+                            "label": "Secondary Button",
+                            "name": "cta-secondary-button-link",
                             "type": "link",
                             "instructions": "",
                             "required": 0,
@@ -444,7 +459,22 @@
                         {
                             "key": "field_678c05409b921",
                             "label": "CAT Button",
-                            "name": "cta-button-link",
+                            "name": "cta-primary-button-link",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_6a8994373ea30",
+                            "label": "Secondary Button",
+                            "name": "cta-secondary-button-link",
                             "type": "link",
                             "instructions": "",
                             "required": 0,
@@ -612,7 +642,22 @@
                         {
                             "key": "field_6a496f9de330b",
                             "label": "CAT Button",
-                            "name": "cta-button-link-form-text",
+                            "name": "cta-primary-button-link",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_6a899649ed246",
+                            "label": "Secondary Button",
+                            "name": "cta-secondary-button-link",
                             "type": "link",
                             "instructions": "",
                             "required": 0,
@@ -908,8 +953,23 @@
                                 },
                                 {
                                     "key": "field_653d8ce3add65",
-                                    "label": "Button",
-                                    "name": "button",
+                                    "label": "Primary Button",
+                                    "name": "primary-button",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "key": "field_6a89969d7daf0",
+                                    "label": "Secondary Button",
+                                    "name": "secondary-button",
                                     "type": "link",
                                     "instructions": "",
                                     "required": 0,
@@ -1087,7 +1147,22 @@
                                 {
                                     "key": "field_670fd9e683d0e",
                                     "label": "Button",
-                                    "name": "column-wise-components-item-button",
+                                    "name": "column-wise-components-item-primary-button",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "key": "field_6a8996e006d9e",
+                                    "label": "Secondary Button",
+                                    "name": "column-wise-components-item-secondary-button",
                                     "type": "link",
                                     "instructions": "",
                                     "required": 0,
@@ -1264,7 +1339,22 @@
                                 {
                                     "key": "field_6710f5dcdff15",
                                     "label": "Button",
-                                    "name": "three-column-components-item-button",
+                                    "name": "three-column-components-item-primary-button",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "key": "field_6a899731ac6da",
+                                    "label": "Secondary",
+                                    "name": "three-column-components-item-secondary-button",
                                     "type": "link",
                                     "instructions": "",
                                     "required": 0,
@@ -1512,8 +1602,23 @@
                                 },
                                 {
                                     "key": "field_678933886fce1",
-                                    "label": "Button",
-                                    "name": "four-column-components-item-button",
+                                    "label": "Primary Button",
+                                    "name": "four-column-components-item-primary-button",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "key": "field_6a89977f36ee8",
+                                    "label": "Secondary Button",
+                                    "name": "four-column-components-item-secondary-button",
                                     "type": "link",
                                     "instructions": "",
                                     "required": 0,
@@ -1839,6 +1944,21 @@
                                     "key": "field_69580bc45c2b7",
                                     "label": "CTA Button",
                                     "name": "course-details-item-ctabutton",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "key": "field_6a8997b2b0959",
+                                    "label": "Secondary Button",
+                                    "name": "course-details-item-ctabutton-2",
                                     "type": "link",
                                     "instructions": "",
                                     "required": 1,
@@ -3053,8 +3173,23 @@
                         },
                         {
                             "key": "field_670f89c9ee80a",
-                            "label": "Button",
-                            "name": "text-cta-box-button",
+                            "label": "Primary Button",
+                            "name": "text-cta-box-primary-button",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_6a8998a60be73",
+                            "label": "Secondary Button",
+                            "name": "text-cta-box-secondary-button",
                             "type": "link",
                             "instructions": "",
                             "required": 0,
@@ -3172,5 +3307,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1786782676
+    "modified": 1787479764
 }

@@ -21,8 +21,11 @@
                 <div class="videotext">
                     <h2><?php echo get_sub_field( 'heading' );?></h2>
                     <p><?php echo get_sub_field( 'text' );?></p>
-                    <?php if(get_sub_field('cta-button-link')) : ?>  
-                        <a href="<?php echo get_sub_field('cta-button-link')['url']; ?>" target="<?php echo get_sub_field('cta-button-link')['target']; ?>" class="btn"><?php echo get_sub_field('cta-button-link')['title']; ?></a>
+                    <?php if(get_sub_field('cta-primary-button-link')) : ?>  
+                        <a href="<?php echo get_sub_field('cta-primary-button-link')['url']; ?>" target="<?php echo get_sub_field('cta-primary-button-link')['target']; ?>" class="btn"><?php echo get_sub_field('cta-primary-button-link')['title']; ?></a>
+                    <?php endif; ?>
+                    <?php if(get_sub_field('cta-secondary-button-link')) : ?>  
+                        <a href="<?php echo get_sub_field('cta-secondary-button-link')['url']; ?>" target="<?php echo get_sub_field('cta-secondary-button-link')['target']; ?>" class="cta-secondary-button-link"><?php echo get_sub_field('cta-secondary-button-link')['title']; ?></a>
                     <?php endif; ?>
                 <div>
             </div>
