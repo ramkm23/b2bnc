@@ -31,8 +31,12 @@
                   <div class="service-text"><?php echo get_sub_field('service-item-text'); ?></div>
                <?php endif; ?>
 
-               <?php if(get_sub_field('button')) : ?>  
-                  <div class="servicebtn"> <a href="<?php echo get_sub_field('button')['url']; ?>" target="<?php echo get_sub_field('button')['target']; ?>" class="btn"><?php echo get_sub_field('button')['title']; ?></a></div>
+               <?php if(get_sub_field('primary-button')) : ?>  
+                  <div class="servicebtn"> <a href="<?php echo get_sub_field('primary-button')['url']; ?>" target="<?php echo get_sub_field('primary-button')['target']; ?>" class="btn"><?php echo get_sub_field('primary-button')['title']; ?></a></div>
+               <?php endif; ?>
+
+               <?php if(get_sub_field('secondary-button')) : ?>  
+                  <div class="servicebtn"> <a href="<?php echo get_sub_field('secondary-button')['url']; ?>" target="<?php echo get_sub_field('secondary-button')['target']; ?>" class="btn secondary-button"><?php echo get_sub_field('secondary-button')['title']; ?></a></div>
                <?php endif; ?>
             </div>
          </div>

@@ -40,8 +40,8 @@ padding: 30px 0 0 0;
   }
   #services .box:hover img {
     filter: brightness(0) invert(1);
-}
-#services .box:hover {
+  }
+ #services .box:hover {
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
@@ -82,5 +82,20 @@ padding: 30px 0 0 0;
 #services .box .service-text {
   margin-bottom: 0;
   line-height: 1.7rem;
+}
+
+
+.secondary-button {
+  background: #1f1c35;
+  border-color: #1f1c35;
+  color: #fff;
+  margin: 4px 0;
+  vertical-align: middle;
+}
+
+.secondary-button:hover {
+  background: #ff723a;
+  border-color: #ff723a;
+  color: #fff;
 }
   

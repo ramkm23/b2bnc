@@ -30,8 +30,11 @@
                      <?php echo get_sub_field('column-wise-components item-text'); ?>
                   </p>
                <?php endif; ?>
-               <?php if(get_sub_field('column-wise-components-item-button')) : ?>  
-                    <a href="<?php echo get_sub_field('column-wise-components-item-button')['url']; ?>" target="<?php echo get_sub_field('column-wise-components-item-button')['target']; ?>" class="btn"><?php echo get_sub_field('column-wise-components-item-button')['title']; ?></a>
+               <?php if(get_sub_field('column-wise-components-item-primary-button')) : ?>  
+                    <a href="<?php echo get_sub_field('column-wise-components-item-primary-button')['url']; ?>" target="<?php echo get_sub_field('column-wise-components-item-primary-button')['target']; ?>" class="btn"><?php echo get_sub_field('column-wise-components-item-primary-button')['title']; ?></a>
+                <?php endif; ?>
+                <?php if(get_sub_field('column-wise-components-item-secondary-button')) : ?>  
+                    <a href="<?php echo get_sub_field('column-wise-components-item-secondary-button')['url']; ?>" target="<?php echo get_sub_field('column-wise-components-item-secondary-button')['target']; ?>" class="btn secondary-button"><?php echo get_sub_field('column-wise-components-item-secondary-button')['title']; ?></a>
                 <?php endif; ?>
             </div>
          </div>

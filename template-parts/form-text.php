@@ -37,12 +37,21 @@
                     <?php the_sub_field('form-text'); ?>
                 </div>
 
-                <?php if ( get_sub_field('cta-button-link-form-text') ) : 
-                    $button = get_sub_field('cta-button-link-form-text');
+                <?php if ( get_sub_field('cta-primary-button-link') ) : 
+                    $button = get_sub_field('cta-primary-button-link');
                 ?>
                     <a href="<?php echo esc_url($button['url']); ?>"
                        target="<?php echo esc_attr($button['target']); ?>"
                        class="btn">
+                        <?php echo esc_html($button['title']); ?>
+                    </a>
+                <?php endif; ?>
+                <?php if ( get_sub_field('cta-secondary-button-link') ) : 
+                    $button = get_sub_field('cta-secondary-button-link');
+                ?>
+                    <a href="<?php echo esc_url($button['url']); ?>"
+                       target="<?php echo esc_attr($button['target']); ?>"
+                       class="btn cta-secondary-button-link">
                         <?php echo esc_html($button['title']); ?>
                     </a>
                 <?php endif; ?>

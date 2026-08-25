@@ -54,6 +54,27 @@
     }
 }
 
+.cta-secondary-button-link {
+  background: #1f1c35;
+  border: 1px solid #1f1c35;
+  color: #fff;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  margin-top: 6px; /* Niche karne ke liye */
+}
+
+.cta-secondary-button-link:hover {
+  background: #ff723a;
+  border-color: #ff723a;
+  color: #fff;
+}
+
 @media (max-width:768px) {
     .formssection {
         margin-bottom: 30px;
