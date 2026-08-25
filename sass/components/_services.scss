@@ -84,18 +84,42 @@ padding: 30px 0 0 0;
   line-height: 1.7rem;
 }
 
-
 .secondary-button {
   background: #1f1c35;
   border-color: #1f1c35;
   color: #fff;
-  margin: 4px 0;
+  margin: 0 0 0 10px;
   vertical-align: middle;
 }
-
 .secondary-button:hover {
   background: #ff723a;
   border-color: #ff723a;
   color: #fff;
 }
-  
+
+#services .box .servicebtn {
+  display: inline-block  !important;
+  margin-right: 10px;
+  margin-top: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  #services .box {
+    padding: 25px 18px;
+  }
+
+  #services .box .btn {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  #services .box .servicebtn {
+    margin-right: 6px !important;
+  }
+}

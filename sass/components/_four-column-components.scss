@@ -19,3 +19,14 @@
         }
     }
 }
+
+@media (min-width: 992px) {
+  .four-coloumn-components .btn {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .four-coloumn-components .secondary-button {
+    margin-left: 6px;
+  }
+}
