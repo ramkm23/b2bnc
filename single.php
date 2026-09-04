@@ -38,6 +38,18 @@
             <?php //get_template_part('template-parts/most-popular-news'); ?>
             <div class="post-content" role="main">
                <p><?php the_content(); ?></p>
+
+               <!-- Blog Components -->
+               <?php if( have_rows('blog') ): ?>
+                  <?php while ( have_rows('blog') ) : the_row(); ?>
+                     <?php
+                        $section_path = 'template-parts/'.get_row_layout();
+                        get_template_part($section_path);
+                     ?>
+                  <?php endwhile; ?>
+               <?php endif; ?>
+               <!-- End Blog Components -->
+
                <?php 
 					while ( have_posts() ) :
 						the_post();
