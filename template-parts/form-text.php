@@ -51,7 +51,7 @@
                 ?>
                     <a href="<?php echo esc_url($button['url']); ?>"
                        target="<?php echo esc_attr($button['target']); ?>"
-                       class="btn cta-secondary-button-link">
+                       class="btn secondary-button">
                         <?php echo esc_html($button['title']); ?>
                     </a>
                 <?php endif; ?>
